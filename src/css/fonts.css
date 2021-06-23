@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'),
+        url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'),
+        url('../fonts/poppins-v15-latin-regular.woff') format('woff'),
+        url('../fonts/poppins-v15-latin-600.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'),
+        url('../fonts/poppins-v15-latin-600.woff2') format('woff2'),
+        url('../fonts/poppins-v15-latin-600.woff') format('woff'),
+        url('../fonts/poppins-v15-latin-600.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'),
+        url('../fonts/poppins-v15-latin-700.woff2') format('woff2'),
+        url('../fonts/poppins-v15-latin-700.woff') format('woff'),
+        url('../fonts/poppins-v15-latin-700.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'),
+        url('../fonts/raleway-v19-latin-regular.woff2') format('woff2'),
+        url('../fonts/raleway-v19-latin-regular.woff') format('woff'),
+        url('../fonts/raleway-v19-latin-regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: local('Nunito'),
+        url('../fonts/nunito-v16-latin-regular.woff2') format('woff2'),
+        url('../fonts/nunito-v16-latin-regular.woff') format('woff'),
+        url('../fonts/nunito-v16-latin-regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}

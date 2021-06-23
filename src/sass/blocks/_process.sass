@@ -1,0 +1,47 @@
+.process
+    padding: 160px 0 200px 0
+    min-height: 950px
+    background-color: #f3f2f2
+    &__cards
+        margin-top: 100px
+        height: 370px
+        display: flex
+        justify-content: space-between
+    &__card
+        margin-top: 42px
+        padding: 50px 40px
+        width: 370px
+        height: 345px
+        border: 1px solid rgba(4, 4, 4, 0.1)
+        background-color: #ffffff
+        transition: 0.8s
+        &:hover
+            margin-top: 0
+            padding: 92px 40px 
+            width: 370px
+            height: 430px
+            background-color: #ffffff
+            background-image: linear-gradient(-18deg, #071d68 0%, #0b4bec 100%)
+        &:hover .process__card__title
+            color: #fff
+        &:hover .process__card__descr
+            color: #eeecec
+        &__img
+            display: block
+            margin: 0 auto
+        &__title
+            margin-top: 27px
+            color: #000000
+            font-size: 20px
+            font-weight: 600
+            line-height: 20px
+            text-transform: uppercase
+            text-align: center
+        &__descr
+            margin-top: 35px
+            color: #808080
+            font-family: 'Raleway', sans-serif
+            font-size: 13px
+            font-weight: 400
+            line-height: 24px
+            text-align: center
